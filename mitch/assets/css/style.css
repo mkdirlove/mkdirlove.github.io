@@ -200,7 +200,7 @@ p {
 
 /* mitch Section */
 #mitch {
-	background-image: url(/home/mkdirlove/Web/mitchy-cute/assets/img/mitch-bg.jpeg);
+	background-image: url(https://raw.githubusercontent.com/mkdirlove/mkdirlove.github.io/main/mitch/assets/img/mitch-bg.jpeg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
