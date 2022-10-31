@@ -2,7 +2,7 @@
   --c-frame: black;
   --c-interface: black;
   --c-headline: black;
-  --c-screen: pink;
+  --c-screen: #e4e2e2;
   --c-letter: #fff;
   --c-date: black;
   --c-subline: #898989;
@@ -259,7 +259,9 @@ body {
   font-family: "Inter", Arial;
   justify-content: center;
   align-items: center;
-  background: #F0F0F0;
+  /*background: #F0F0F0;*/
+  background-image: url('http://clipart-library.com/data_images/55401.gif');
+  background-size: cover;
 }
 @media (min-width: 501px) {
   body {
