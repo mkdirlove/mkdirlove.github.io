@@ -2,7 +2,7 @@
   --c-frame: black;
   --c-interface: black;
   --c-headline: black;
-  --c-screen: #e4e2e2;
+  --c-screen: pink;
   --c-letter: #fff;
   --c-date: black;
   --c-subline: #898989;
@@ -259,7 +259,7 @@ body {
   font-family: "Inter", Arial;
   justify-content: center;
   align-items: center;
-  background: pink;
+  background: #F0F0F0;
 }
 @media (min-width: 501px) {
   body {
