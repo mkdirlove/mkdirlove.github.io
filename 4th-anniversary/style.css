@@ -259,7 +259,7 @@ body {
   font-family: "Inter", Arial;
   justify-content: center;
   align-items: center;
-  background: #F0F0F0;
+  background: pink;
 }
 @media (min-width: 501px) {
   body {
