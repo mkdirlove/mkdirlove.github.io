@@ -260,32 +260,11 @@ body {
   justify-content: center;
   align-items: center;
   /*background: #F0F0F0;*/
-  background-image: url('http://clipart-library.com/data_images/55401.gif');
+  background-image: url("https://wallpaperaccess.com/full/4231945.gif");
   background-size: cover;
 }
 @media (min-width: 501px) {
   body {
     padding: 24px;
   }
-}
-body .dribbble {
-  position: fixed;
-  display: block;
-  right: 20px;
-  bottom: 20px;
-}
-body .dribbble img {
-  display: block;
-  height: 28px;
-}
-body .twitter {
-  position: fixed;
-  display: block;
-  right: 64px;
-  bottom: 14px;
-}
-body .twitter svg {
-  width: 32px;
-  height: 32px;
-  fill: #1da1f2;
 }
