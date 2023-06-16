@@ -1,0 +1,55 @@
+body {
+	background-color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cybertron+OpCode&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cybertron OpCode', sans-serif;
+}
+
+h1 {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.enlarged-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-wrapper:hover .enlarged-image {
+  opacity: 1;
+}
